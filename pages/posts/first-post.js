@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Head from "next/head";
+import Layout from "../../components/layout";
 
 export default () => {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>First Post</title>
             </Head>
@@ -13,7 +14,12 @@ export default () => {
                     <a>Back to home</a>
                 </Link>
             </h2>
-        </>
+
+            <style jsx>{`
+
+
+            `}</style>
+        </Layout>
     )
 }
 
